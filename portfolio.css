@@ -1,0 +1,129 @@
+ body {
+     position: relative;
+ }
+ 
+ #welcome-section {
+     background-image: url("portfolioimages/background.jpg");
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+ }
+ 
+ #home {
+     background: rgba(220, 220, 220, 0.5);
+     height: 100%;
+ }
+ 
+ .avatarimage {
+     width: 15%;
+     border-radius: 100%;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+ }
+ 
+ #navigation {
+     background: rgba(55, 71, 79, 1.0);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+ }
+ 
+ .shadow {
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+ }
+ 
+ .bluegrey {
+     color: rgb(55, 71, 79);
+ }
+ 
+ .progress {
+     background: white;
+     width: 100px;
+     height: 100px;
+     position: relative;
+ }
+ 
+ .imagesproject {
+     width: 70%;
+ }
+ 
+ .borderbottom {
+     border-bottom: 2px solid rgba(55, 71, 79, 0.5);
+     margin-bottom: 20px;
+ }
+ 
+ .btn-outline-info {
+     color: rgb(55, 71, 79);
+     background-image: none;
+     background-color: transparent;
+     border-color: rgb(55, 71, 79);
+ }
+ 
+ .btn-outline-info:hover,
+ .btn-outline-info:focus {
+     color: #fff;
+     background-color: rgb(55, 71, 79);
+     border-color: rgb(55, 71, 79);
+ }
+ 
+ .btn-outline-info.active {}
+ 
+ .btn-outline-primary {
+     color: rgb(255, 255, 255);
+     background-image: none;
+     background-color: transparent;
+     border-color: rgb(255, 255, 255);
+ }
+ 
+ .btn-outline-primary:hover,
+ .btn-outline-primary:focus {
+     color: rgb(55, 71, 79);
+     background-color: rgb(255, 255, 255);
+     border-color: rgb(255, 255, 255);
+ }
+ 
+ .btn.active.focus,
+ .btn.active:focus,
+ .btn.focus,
+ .btn:active.focus,
+ .btn:active:focus,
+ .btn:focus {
+     box-shadow: none;
+ }
+ 
+ #contact {
+     background: rgba(55, 71, 79, 1.0);
+ }
+ /*  #appprojectcontainer {
+           background-image: url(../Bootstrap/listen.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #projectapppageoverlay {
+            background: rgba(49, 49, 107, 0.5);
+        } 
+        */
+ 
+ #appmemoryprojectcontainer {
+     background-image: url(https://c1.staticflickr.com/3/2233/4040197666_cbab8cde1d_b.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ #projectmemoryoverlay {
+     background: rgba(108, 171, 91, 0.8);
+ }
+ 
+ #weatherprojectcontainer {
+     background-image: url(portfolioimages/01d.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ #projectweatheroverlay {
+     background: rgba(2, 40, 67, 0.3);
+ }
+ 
+ @media (max-width: 991px) {
+     .avatarimage {
+         width: 50%;
+     }
+ }

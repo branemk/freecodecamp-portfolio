@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/2.4.2/isInViewport.js"></script>
+    
+    
+    <link rel="stylesheet" href="portfolio.css">
+    <title>My portfolio</title>
+
+
+  
+</head>
+
+
+
+<body>
+
+    <div class="container-fluid" id="welcome-section">
+        <div class="navbar navbar-toggleable-md navbar-inverse fixed-top " id="navigation">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navigationtop"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navigationtop">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="row p-5" id="home">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="h1 m-5 text-center">Hi, I'am Brane</h1>
+                <img class="img-fluid avatarimage m-3" src="portfolioimages/avatarcircle.png">
+                <p class="text-center">I am self thought developer and web designer</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container" id="skills">
+        <div class="row ">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="bluegrey p-3">My Skills</h3>
+            </div>
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="progress" id="progresshtml"></div>
+                <h3 class="p-3" style="color:#EC662B">HTML <i class="fa fa-html5" aria-hidden="true"></i></h3>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="progress" id="progresscss"></div>
+                <h3 class="p-3" style="color:#1572B6">CSS <i class="fa fa-css3" aria-hidden="true"></i></h3>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="progress" id="progressjs"></div>
+                <h3 class="p-3" style="color:#F0DB4F">JavaScript</h3>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="progress" id="progressjava"></div>
+                <h3 class="p-3" style="color:#5382A1">Java</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="projects">
+
+        <div class="row pb-3 pt-3">
+
+            <div class="col-12 d-flex justify-content-center align-items-center p-3">
+                <h3 class="bluegrey m-3 project-tile">My Latest Projects</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="appprojectcontainer">
+
+        <div class="row d-flex justify-content-center align-items-center" id="projectapppageoverlay">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="bluegrey p-4 text-center">App Landing page build in Bootsrap</h3>
+                <p class=" p-5 text-center">This page is part of the web development cource on Udemy,it's build with Bootsrap and I am using font awesome for icons. I am the dev of the app showed on page.This is actually my very first webpage build with Bootstrap.Hopefully you will like it.</p>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <a class="d-flex flex-column justify-content-center align-items-center" href="http://79.170.44.93/brane91webpage.com/Bootstrap/AppLandingPage.html" target="_blank"><img class="img-fluid imagesproject" src="portfolioimages/Web%20Mockup%202.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="appmemoryprojectcontainer">
+
+        <div class="row p-5 d-flex justify-content-center align-items-center" id="projectmemoryoverlay">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center p-3">
+                <a class="d-flex flex-column justify-content-center align-items-center" href="http://79.170.44.93/brane91webpage.com/memorija.html" target="_blank"><img class="img-fluid imagesproject shadow" src="portfolioimages/memoryBrowser%20Mockup.png"></a>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="bluegrey p-4 text-center text-white">Memory game</h3>
+                <p class="text-white">This is simple memory game build with Javascript and Jquery</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="weatherprojectcontainer">
+        <div class="row p-5 d-flex justify-content-center align-items-center" id="projectweatheroverlay">
+
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="bluegrey p-4 text-center text-white">Weather App</h3>
+                <p class="text-white">Simple weather app using Open Weather Map API. At the point of making this app I wasn't aware about Bootsrap so this is not best optimised for mobile.</p>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <a class="d-flex flex-column justify-content-center align-items-center" href="http://79.170.44.93/brane91webpage.com/openweathermap(jQuery).html" target="_blank"><img class="img-fluid imagesproject shadow" src="portfolioimages/weatherBrowser%20Mockup.png"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid" id="viewmore">
+        <div class="p-5 row d-flex flex-column justify-content-center align-items-center">
+            <p class="p-3">If you like to see more of my projects click the button below</p>
+            <a class="btn btn-outline-info" href="http://79.170.44.93/brane91webpage.com/PreviewProjects.html" target="_blank">View More</a>
+
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center" id="contact">
+            <div class="p-5 col-12 d-flex justify-content-center align-items-center text-white">
+                <h3>Contact me</h3>
+            </div>
+            <div class="p-5 col-12 d-flex justify-content-center align-items-center text-white"><a class="btn btn-outline-primary" href="mailto:petoskibrane@gmail.com" target="_blank">Send me an email</a></div>
+            <div class="pb-5 col-md-1 d-flex justify-content-center align-items-center">
+
+                <a href="https://www.freecodecamp.com/branemk" target="_blank"><i class="text-white fa fa-free-code-camp fa-3x" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="pb-5 col-md-1  d-flex justify-content-center align-items-center">
+
+                <a href="https://www.facebook.com/BranePetkoski" target="_blank"><i class="text-white fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="pb-5 col-md-1 d-flex justify-content-center align-items-center">
+
+                <a href="https://twitter.com/philosopher_mk" target="_blank"><i class="text-white fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="pb-5 col-md-1 d-flex justify-content-center align-items-center">
+
+                <a href="https://github.com/branemk" target="_blank"><i class="text-white fa fa-github fa-3x" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+<script src="portfolio.js"></script>
+
+</html>
